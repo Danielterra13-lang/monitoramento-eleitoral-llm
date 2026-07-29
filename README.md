@@ -4,7 +4,7 @@ Dashboard que cruza pesquisas eleitorais públicas com a situação de reeleiç�
 de cada governo estadual brasileiro, classificando o risco de continuidade
 da situação em cada uma das 27 disputas para 2026.
 
-**Contexto completo e decisões de arquitetura:** [link do case study no Notion — adicionar depois de publicar]
+**Contexto completo e decisões de arquitetura:** https://hip-memory-a6b.notion.site/Monitoramento-eleitoral-com-LLM-3aceb2f6a878803bbe02e4e042a94a95
 
 ![Visão geral do dashboard](assets/screenshot-hero-tabela.png)
 
