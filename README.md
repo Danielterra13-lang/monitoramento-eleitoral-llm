@@ -49,7 +49,7 @@ Apps Script #1 (Wikipédia) ─┼──▶  Apps Script #2 (classificação)  �
 
 ## Uso
 
-Abra `dashboard-eleitoral.html` no navegador. Por padrão, ele aponta para a
+Abra https://danielterra13-lang.github.io/monitoramento-eleitoral-llm/ no navegador. Por padrão, ele aponta para a
 planilha pública deste projeto (`SHEET_ID` fixo no `<script>`, dados 100%
 públicos). Para usar com a sua própria planilha, troque as constantes
 `SHEET_ID` e `GID_CLASSIFICACAO` no início do bloco `<script>`.
