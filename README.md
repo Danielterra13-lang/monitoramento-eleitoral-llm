@@ -19,7 +19,7 @@ problema, em vez de forçar tudo pela mesma via:
 | Curadoria de pré-candidatos por estado (`aba1_situacao_por_estado`) | Claude Cowork, Scheduled Task semanal | Julgamento qualitativo com busca web — precisa de revisão humana |
 | Coleta de pesquisas eleitorais brutas | Google Apps Script, gatilho semanal | Scraping determinístico (Wikipédia) |
 | Cálculo do gap e classificação de continuidade | Google Apps Script, gatilho semanal | Regra fixa, auditável, sem custo de API |
-| Visualização | `dashboard-eleitoral.html`, arquivo único | Lê a planilha ao vivo via Google Visualization API |
+| Visualização |  `index.html`, arquivo único | Lê a planilha ao vivo via Google Visualization API |
 
 ```
 Cowork (semanal, IA + busca web)
@@ -33,10 +33,10 @@ Apps Script #1 (Wikipédia) ─┼──▶  Apps Script #2 (classificação)  �
                                     Favorável · Em Risco · Disputa (situação/empate/oposição) · Desfavorável · Imprevisível
                                              │
                                              ▼
-                                  dashboard-eleitoral.html (gviz/tq, JSONP)
+                                   index.html (gviz/tq, JSONP)
 ```
 
-- Um único arquivo `dashboard-eleitoral.html` — abre direto no navegador, sem
+- Um único arquivo `index.html` — abre direto no navegador, sem
   servidor.
 - Busca os dados via [Google Visualization API (`gviz/tq`)](https://developers.google.com/chart/interactive/docs/querylanguage),
   usando JSONP — não precisa de chave de API nem de backend intermediário.
